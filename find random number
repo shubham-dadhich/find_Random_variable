@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
 int main()
 {
 	int number,guess;
@@ -11,21 +11,22 @@ int main()
 
 	do
 	{
-    printf("guess the number between 1 to 100 \n");
-	scanf("%d",&guess);
+    cout<<"guess the number between 1 to 100 \n";
+
+	cin>>guess;
 	if(number<guess)
 	{
-	printf("lower number please!\n");
+	cout<<"lower number please!\n";
     }
     else if(number >guess)
     {
-	printf("Higher numer please!\n");
+	cout<<"Higher numer please!\n";
 	}
 	else
 	{
-	printf("you gussed number in %d attempts/n",guessnumber);    
+	cout<<"you gussed number in "<<guessnumber<<" attempts/n";    
 	}
     guessnumber++;
     }while(number!=guess);
-	return 0;
-}
+return 0;
+} 
