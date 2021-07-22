@@ -7,7 +7,7 @@ int main()
 	int guessnumber=1;
 	srand(time(0));
 	number=rand()%100+1;
-//	printf("the random number is %d\n",number);
+//	cout<<"the random number is : "<<number\n";
 
 	do
 	{
