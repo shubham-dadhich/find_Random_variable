@@ -1,1 +1,1 @@
-# find_Random_variable
+# find Random variable
